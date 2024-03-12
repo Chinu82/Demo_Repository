@@ -1,3 +1,3 @@
 # Demo_Repository
-It is a demo Repository.<hr>
-author : Cin Shu
+It is a demo repisitory<hr>
+practice

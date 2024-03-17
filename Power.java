@@ -36,5 +36,7 @@ class Power{
                 System.out.println("res1 = "+p1);
                 System.out.println("res2 = "+p2);
             }
+            System.out.println("res1 = "+res1);
+            System.out.println("res2 = "+res2);
         }
 }

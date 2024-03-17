@@ -21,18 +21,20 @@ class Power{
         int sn = sc.nextInt();
         int mul = sn * 9;
         int tot = num - mul;
-
+        int p1,p2;
         System.out.println("The number after substract from "+sn+" number");
         int res1 = sumofdigit(tot);      
         int res2 = sumofdigit(num);      
-        System.out.println("res1 = "+res1);
-        System.out.println("res2 = "+res2);
-
+        
         if (res1 == res2) {
             System.out.println("Trick is working : ");
         }
         else{
-            System.out.println("Trick is not working : ");
+                p1 = sumofdigit(res1);
+                p2 = sumofdigit(res2);
+                System.out.println("Trick is still working if we add the number and convert into single digit : ");
+                System.out.println("res1 = "+p1);
+                System.out.println("res2 = "+p2);
+            }
         }
-    }
 }
